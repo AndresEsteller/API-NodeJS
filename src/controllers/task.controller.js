@@ -1,4 +1,4 @@
-import { connectionDB, commands} from '../database/index'
+import { connectionDB, commands } from '../database/index'
 
 export const getTasks = async (req, res) => {
     try{
